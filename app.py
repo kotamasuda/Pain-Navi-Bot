@@ -20,7 +20,7 @@ def secret_get(key: str, default: str = "") -> str:
 
 # ================= ページ設定 =================
 st.set_page_config(page_title="痛みナビBot", layout="centered")
-st.title("🧭 痛みナビBot（一般向けセルフケア）")
+st.title("痛みナビBotくん🤖")
 st.caption("※診断ではありません。危険サインがあれば医療機関の受診を最優先。")
 
 # ================= OpenAIクライアント（任意） =================
